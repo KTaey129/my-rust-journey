@@ -1,0 +1,7 @@
+When push artifacts from local to github repo
+1. generate access token from github profile - developer settings
+2. git init (local)
+3. git add . (local)
+4. git remote set-url origin https://<access token>@github.com/<user name>/<repo name>
+5. git commit -m "<message>"
+6. git push -u origin main
